@@ -8,8 +8,10 @@ El primer paso es crear su proyecto angular, utilizanAdo Angular CLI. Usaremos e
 `ng new sidenav-angular6`
 
  ##  Navegar al proyecto
-`cd sidenav-angular6
-  ng serve --open`
+`cd sidenav-angular6`
+
+##  Iniciar serve
+  `ng serve --open`
 
 ## 2: Agregar angular material
 
@@ -21,16 +23,14 @@ Tambien se puede utilizar ng add
 ## 3: crear componente  angular material
 `ng generate component side-nav`
 
-## 4: Para Mobile responsive instalamos @angular/flex-layout (opcional)
-`npm install --save @angular/flex-layout`
-
-## 5: Add Material Icons (OJO: en el index.html)
+## 4: Add Material Icons (OJO: en el index.html)
 `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+
+## 5: Para Mobile responsive instalamos @angular/flex-layout (opcional)
+`npm install --save @angular/flex-layout`
 
 ## 6: Add helper-css (opcional)
 [Helper-css](https://github.com/armandoaepp/helper-css)
-
-- 6 Pasos para crear una sidenav con @angular/material
 
 
 # info angular 6
